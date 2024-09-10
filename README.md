@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Detahes
+
+no package.json tem o script `all`, onde quando dado um `npm run all` é rodado tanto `ng serve` (porta `http://localhost:4200`) como também o backend da aplicação `node ./server/server.js` que é escutada na porta `http://localhost:3000/photos`
+
+o endereço `https://picsum.photos/200/300` gera imagens aleatórias
+
+# Avançando com testes automatizados
+
+## primeira parte
+- revisão de conceitos;
+- criação do component PhotoFrame;
+- Aplicação do patten debounce.
+

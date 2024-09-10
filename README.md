@@ -48,3 +48,10 @@ o endereço `https://picsum.photos/200/300` gera imagens aleatórias
 - teste de atributos;
 - testando a acessibilidade.
 
+## terceira parte: eventos de UI
+
+- simulação de cliques;
+- emissão de eventos UI;
+- combinação de dois eventos em um através de diretivas;
+- teste de diretiva;
+- diferença entre debugElemententre e nativeElement.

@@ -35,7 +35,16 @@ o endereço `https://picsum.photos/200/300` gera imagens aleatórias
 # Avançando com testes automatizados
 
 ## primeira parte
+
 - revisão de conceitos;
 - criação do component PhotoFrame;
 - Aplicação do patten debounce.
+
+## segunda parte: Testes temporais e de integração com o DOM
+
+- o papel da função fakeAsync;
+- controle de tempo com a função tick;
+-teste de integração com o DOM;
+- teste de atributos;
+- testando a acessibilidade.
 

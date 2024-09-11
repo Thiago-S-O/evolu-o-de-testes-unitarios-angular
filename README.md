@@ -55,3 +55,8 @@ o endereço `https://picsum.photos/200/300` gera imagens aleatórias
 - combinação de dois eventos em um através de diretivas;
 - teste de diretiva;
 - diferença entre debugElemententre e nativeElement.
+
+## quarta parte: cuidados com a abstração do Angular
+- cuidados com o ngOnChanges;
+- Diferentes abordagens para testar ngOnChanges;
+- criar SimpleChanges programaticamente.

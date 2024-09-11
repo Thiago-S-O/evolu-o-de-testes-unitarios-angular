@@ -57,6 +57,15 @@ o endereço `https://picsum.photos/200/300` gera imagens aleatórias
 - diferença entre debugElemententre e nativeElement.
 
 ## quarta parte: cuidados com a abstração do Angular
+
 - cuidados com o ngOnChanges;
 - Diferentes abordagens para testar ngOnChanges;
 - criar SimpleChanges programaticamente.
+
+## última parte: avançando nos testes
+
+- testes de componentes com escopo de página;
+- spy com resposta programatica;
+- injeção de serviços em nossos testes;
+- testes de serviços que acessam API's com HttpClientTestingModule;
+- uso dos mock providers;

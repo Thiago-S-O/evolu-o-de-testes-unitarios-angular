@@ -10,11 +10,9 @@ import { Photo } from './shared/components/photo-board/interfaces/photo';
 })
 export class AppComponent implements OnInit {
   title = 'Angular testing';
-  public photos$: Observable<Photo[]>;
 
-  constructor(private service: PhotoBoardService) { }
+  constructor() { }
 
-  public ngOnInit(): void {
-    this.photos$ = this.service.getPhotos();
+  public ngOnInit(){
   }
 }

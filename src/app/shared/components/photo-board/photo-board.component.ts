@@ -9,7 +9,7 @@ import { Photo } from './interfaces/photo';
 export class PhotoBoardComponent implements OnInit, OnChanges {
 
   @Input() public photos: Photo[];
-  public rows: any[][] = []
+  public rows: any[][] = [];
 
   constructor() { }
 
@@ -26,8 +26,9 @@ export class PhotoBoardComponent implements OnInit, OnChanges {
     const newRows = [];
     const step = 4;
 
-    for (let index = 0; index < photos.length; index += step) {
+    for (let index = 0; index < photos?.length; index += step) {
       newRows.push(photos.slice(index, index + step))
+      // console.log(`@newRows: ${newRows}`)
     }
     return newRows;
   }
